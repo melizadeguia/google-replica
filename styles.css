@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+nav a{
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 5px 7px;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    padding: 5px;
+}
+
+nav img:hover{
+    opacity: 0.6;
+}
+
+.section1{
+    flex: 1;
+}
+
+.section1 .logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.search{
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+}
+
+.search .searchinput{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.search .searchinput:hover{
+    border: 1px solid lightslategray;
+}
+
+.search .searchlogo {
+    width: 20px;
+    position: absolute;
+    top: 11px;
+    left: 14px;
+}
+
+.search .voice{
+    width: 25px;
+    position: absolute;
+    top: 9px;
+    right: 12px;
+}
+
+.buttons{
+    border: none;
+    padding: 10px 15px;
+    color: rgb(61, 59, 59);
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.buttons:hover{
+    border: 1px solid grey;
+}
+
+.language{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+
+.language a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(165, 165, 165, 0.55);
+}
+
+footer h4{
+    color: gray;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+footer a{
+    color: grey;
+    display: inline-block;
+    padding: 12px;
+    font-size: 14px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.links{
+    border-top: 1px solid rgb(173, 173, 173);
+    display: flex;
+}
+
+.link1{
+    padding-left: 20px;
+    flex: 1;
+}
+
+.link2{
+    padding-right: 20px;
+}
